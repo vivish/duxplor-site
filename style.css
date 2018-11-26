@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: none;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+}
+
+main {
+    overflow: auto;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    background-color: burlywood;
+    height: 42em;
+    text-align: center;
+}
+.slider p {
+    margin-top: 20%
+}
+#logo > img {
+    width: 145px;
+    margin: 50px;
+}
+
+footer {
+    bottom: 0;
+    background-color: black;
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+#menu {
+    padding: 25px 0px 0px 0px
+}
+
+.menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0px 20px 0px 20px;
+    align-items: center;
+}
+
+.logo-menu {
+    display: flex;
+}
+
+#logo-bottom > img {
+    width: 125px;
+    padding: 0px 25px 0px 25px;
+}
+
+.menu-infos {
+    display: flex;
+}
+
+.menu-infos > ul {
+    padding: 0px 25px 0px 25px
+    /*a mesma que o .menu-links-social*/
+}
+
+.menu-infos > ul > li:first-child {
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.menu-infos > ul > li > a {
+    color: white;
+}
+
+.menu-links-social > a > img {
+    width: 30px;
+    padding: 0px 25px 0px 25px
+    /*a mesma que o .menu-infos*/
+}
+
+#menu-bottom {
+    display: inline;
+    text-align: center;
+    margin: 20px;
+}
+
+#copyright > p,
+#credito > p {
+    color: white;
+}
